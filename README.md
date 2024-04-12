@@ -1,4 +1,4 @@
-# Swapping-two-values
+# Swapping of two variables
 ## AIM:
 To write a python program for swapping of two values
 ## EQUIPEMENT'S REQUIRED: 
@@ -18,7 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+                    def swap(a,b):
+                        t=a
+                        a=b
+                        b=t
+                        return a,b
+                    a=input()
+                    b=input()
+                    a,b=swap(a,b)
+                    print('Swapped values are: {} {}'.format(a,b))
+##OUTPUT:
 ![Screenshot 2024-03-21 134412](https://github.com/SadhanaShreee/Swapping-two-values/assets/144517664/6fb67c23-a43a-4d98-98c3-9dd67d67894f)
 
 ## RESULT:
